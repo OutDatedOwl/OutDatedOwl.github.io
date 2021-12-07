@@ -1,5 +1,5 @@
 body {
-	width: 100%;
+    width: 100%;
     padding: 0px;
     border: 0px;
     margin: 0px;
@@ -9,7 +9,7 @@ body {
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 a:link { color: #FFF; }
 a:visited { color: #FFF; }
@@ -37,7 +37,7 @@ img {
 }
 
 h1 {
-    padding: 30px;
+    padding: 50px;
     margin-right: auto;
     margin-left: auto;
     font-size: 25pt; 
@@ -60,47 +60,47 @@ h2 {
 
 .footer {
     padding-top: 50px;
+    --doomfire-pixel-size:1;
+    background-image: paint(doomfire);
 }
 
 .footer_home {
-    position: fixed;
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
-    width: 100%;
-    height: 200px;
+    padding-top: 128px;
+    --doomfire-pixel-size:1;
+    background-image: paint(doomfire);
 }
 
 #the_lot_more {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #d8f8ff;
-	background: url(/graphics/starburst.gif);
-	border-style: solid;
-	border-color: #000;
-	border-width: 0px 0px 0px 1px;
-	background-attachment: fixed;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d8f8ff;
+    background: url(/graphics/starburst.gif);
+    border-style: solid;
+    border-color: #000;
+    border-width: 0px 0px 0px 1px;
+    background-attachment: fixed;
 }
 
 #top_menu {
-	background-color: #000;
-	font-size: 25px;
+    background-color: #000;
+    font-size: 25px;
 }
 
 .top_menu_row {
-	height: 15px;
+    height: 15px;
 }
 
 .top_menu_alt1 {
-	background-color: #04171c;
+    background-color: #04171c;
 }
 
 .top_menu_alt2 {
-	background-color: #071012;
+    background-color: #071012;
 }
 
 .top_menu_alt3 {
-	background-color: #0a242a;
+    background-color: #0a242a;
 }
 
 .glass {
@@ -111,6 +111,8 @@ h2 {
 
 .glass_push{
     padding-left: 40px;
+    border-collapse: separate;
+    border-spacing: 0em 5em;
 }
 
 .glass_push_more{
@@ -119,9 +121,9 @@ h2 {
 }
 
 .plastic_favorite {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #plastic_hopeless {
@@ -165,9 +167,11 @@ h2 {
     text-align: center;
     text-shadow: 0px 0px 1px #fff;
     background-color: #000;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
 }
 
-.character_sheet {
+.square_sheet {
     padding: 0px;
     border: 4px;
     margin: 0px;
@@ -178,6 +182,8 @@ h2 {
     border-width: 4px;
     color: #aaa;
     background-color: #000;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
 }
 
 #flavor_text1 {
@@ -210,4 +216,8 @@ h2 {
     text-align: center;
     text-shadow: 0px 0px 1px #fff;
     background-color: #000;
+}
+
+.character_sheet img {
+    float: left;
 }
