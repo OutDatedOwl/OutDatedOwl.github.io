@@ -58,6 +58,11 @@ h2 {
     background-color: #000;
 }
 
+#dnd_map {
+    display: inline-block;
+    margin: 30px 10px;
+}
+
 .footer {
     padding-top: 50px;
     --doomfire-pixel-size:1;
@@ -171,6 +176,22 @@ h2 {
     border-top-left-radius: 6px;
 }
 
+#campaign_text {
+    border: 4px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20pt; 
+    font-weight: normal;
+    font-family: copperplate;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 1px #fff;
+    background-color: #04171c;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
 .square_sheet {
     padding: 0px;
     border: 4px;
@@ -182,6 +203,20 @@ h2 {
     border-width: 4px;
     color: #aaa;
     background-color: #000;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.square_sheet_campaign {
+    padding: 0px;
+    border: 4px;
+    margin: 0px;
+    width: 29cm;
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 4px;
+    color: #aaa;
+    background-color: #04171c;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
 }
