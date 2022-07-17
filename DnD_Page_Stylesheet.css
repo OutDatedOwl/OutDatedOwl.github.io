@@ -19,6 +19,30 @@ a:hover {
 }
 a:active    { color: #000; }
 
+#redbrand {
+    color: indianred;
+}
+
+#redbrand:hover {
+    color: white;
+}
+
+#cragmaw {
+    color: lawngreen;
+}
+
+#cragmaw:hover {
+    color: white;
+}
+
+#dragon {
+    color: royalblue;
+}
+
+#dragon:hover {
+    color: white;
+}
+
 table {
     padding: 0px;
     border: 0px;
@@ -65,14 +89,14 @@ h2 {
 
 .footer {
     padding-top: 50px;
-    --doomfire-pixel-size:1;
-    background-image: paint(doomfire);
+    /*--doomfire-pixel-size:1;
+    background-image: paint(doomfire);*/
 }
 
 .footer_home {
     padding-top: 128px;
-    --doomfire-pixel-size:1;
-    background-image: paint(doomfire);
+    /*--doomfire-pixel-size:1;*/
+    /*background-image: paint(doomfire);*/
 }
 
 #the_lot_more {
@@ -193,6 +217,22 @@ h2 {
     border-top-left-radius: 6px;
 }
 
+#videos_text {
+    border: 4px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20pt; 
+    font-weight: normal;
+    font-family: copperplate;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 1px #fff;
+    background-color: #04171c;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
 .square_sheet {
     padding: 0px;
     border: 4px;
@@ -212,7 +252,7 @@ h2 {
     padding: 0px;
     border: 4px;
     margin: 0px;
-    width: 29cm;
+    width: 1200px;
     border-color: #aaa;
     border-style: solid;
     border-width: 4px;
@@ -220,6 +260,45 @@ h2 {
     background-color: #04171c;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
+}
+
+.square_sheet_videos {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 4px;
+    margin: 0px;
+    width: 800px;
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 4px;
+    color: #aaa;
+    background-color: #04171c;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    border: 4px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32pt; 
+    font-weight: normal;
+    font-family: copperplate;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 1px #fff;
+    background-color: #04171c;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #flavor_text1 {
