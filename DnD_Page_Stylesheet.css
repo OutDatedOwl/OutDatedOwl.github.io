@@ -463,6 +463,21 @@ h2 {
     line-height: 0;
 }
 
+#sticky_button_CoS {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    border: 1px;
+    margin-right: auto;
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+    color: #aaa;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    line-height: 0;
+}
+
 #sticky_button img:hover {
     opacity: .75;
 }
