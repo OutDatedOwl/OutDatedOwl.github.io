@@ -19,6 +19,10 @@ a:hover {
 }
 a:active    { color: #000; }
 
+#swap_campaign_button {
+    color: red;
+}
+
 #redbrand {
     color: indianred;
 }
@@ -86,6 +90,12 @@ h2 {
 #dnd_map {
     display: inline-block;
     margin: 30px 10px;
+}
+
+#dnd_map_CoS {
+    display: inline-block;
+    margin: 30px 10px;
+    background-color: #1c141e;
 }
 
 .footer {
@@ -385,6 +395,22 @@ h2 {
     background-color: #000;
 }
 
+#flavor_text1_CoS {
+    padding-left: 160px;
+    border: 4px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 680px;
+    font-size: 16pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 1px #fff;
+    background-color: #1c141e;
+}
+
 #flavor_text2 {
     padding-left: 160px;
     border: 4px;
@@ -401,6 +427,81 @@ h2 {
     background-color: #000;
 }
 
-.character_sheet img {
+#flavor_text2_CoS {
+    padding-left: 160px;
+    border: 4px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 690px;
+    background-color: #1c141e;
+    font-size: 16pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 1px #fff;
+    background-color: #1c141e;
+}
+
+/*.character_sheet img {
     float: left;
+}*/
+
+#sticky_button {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    border: 1px;
+    margin-right: auto;
+    border-color: royalblue;
+    border-style: solid;
+    border-width: 2px;
+    color: #aaa;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    line-height: 0;
+}
+
+#sticky_button img:hover {
+    opacity: .75;
+}
+
+#paladin {
+    width: 30%;
+    /*padding-left: 50px;*/
+}
+
+#amazon {
+    width: 30%;
+/*    padding-left: 50px;
+    padding-right: 30px;*/
+}
+
+#grand_entrance{
+    width: 100vw;
+    height: 100vh;
+}
+
+#header_1_CoS {
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #1c141e;
+}
+
+#header_2_CoS {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #1c141e;
 }
