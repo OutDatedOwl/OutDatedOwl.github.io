@@ -47,6 +47,14 @@ a:active    { color: #000; }
     color: white;
 }
 
+#side_camp {
+    color: yellow;
+}
+
+#side_camp:hover {
+    color: white;
+}
+
 table {
     padding: 0px;
     border: 0px;
