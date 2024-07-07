@@ -133,6 +133,16 @@ h2 {
     background-image: paint(doomfire);*/
 }
 
+.footer_dread_fleet {
+    /*padding-top: 0px;*/
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #003b66;
+    /*--doomfire-pixel-size:1;
+    background-image: paint(doomfire);*/
+}
+
 #the_lot_more {
     text-align: center;
     margin-left: auto;
@@ -151,6 +161,19 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     background-color: #1c141e; !important
+    background: url(/graphics/starburst.gif);
+    border-style: solid;
+    border-color: #000;
+    border-width: 0px 0px 0px 1px;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+#the_lot_more_dread_fleet {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #003b66; !important
     background: url(/graphics/starburst.gif);
     border-style: solid;
     border-color: #000;
@@ -196,6 +219,18 @@ h2 {
 
 .top_menu_alt3_CoS {
     background-color: #402020;
+}
+
+.top_menu_alt1_dread_fleet {
+    background-color: #124063;
+}
+
+.top_menu_alt2_dread_fleet {
+    background-color: #0c395b;
+}
+
+.top_menu_alt3_dread_fleet {
+    background-color: #033153;
 }
 
 .glass {
