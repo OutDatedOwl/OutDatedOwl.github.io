@@ -114,6 +114,12 @@ h2 {
     background-color: #1c141e;
 }
 
+#dnd_map_dread_fleet {
+    display: inline-block;
+    margin: 30px 10px;
+    background-color: #003b66;
+}
+
 .footer {
     /*padding-top: 0px;*/
     position: relative;
@@ -462,6 +468,22 @@ h2 {
     background-color: #1c141e;
 }
 
+#flavor_text1_dread_fleet {
+    padding-left: 160px;
+    border: 4px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 680px;
+    font-size: 16pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 1px #fff;
+    background-color: #003b66;
+}
+
 #flavor_text2 {
     padding-left: 160px;
     border: 4px;
@@ -505,7 +527,7 @@ h2 {
     right: 20px;
     border: 1px;
     margin-right: auto;
-    border-color: royalblue;
+    border-color: green;
     border-style: solid;
     border-width: 2px;
     color: #aaa;
@@ -520,7 +542,7 @@ h2 {
     right: 20px;
     border: 1px;
     margin-right: auto;
-    border-color: green;
+    border-color: indianred;
     border-style: solid;
     border-width: 2px;
     color: #aaa;
@@ -529,13 +551,28 @@ h2 {
     line-height: 0;
 }
 
-#sticky_button_Dead_Fleet {
+#sticky_button_CoS_dread_fleet {
     position: fixed;
     bottom: 0px;
     right: 275px;
     border: 1px;
     margin-right: auto;
-    border-color: green;
+    border-color: indianred;
+    border-style: solid;
+    border-width: 2px;
+    color: #aaa;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    line-height: 0;
+}
+
+#sticky_button_dread_fleet {
+    position: fixed;
+    bottom: 0px;
+    right: 275px;
+    border: 1px;
+    margin-right: auto;
+    border-color: royalblue;
     border-style: solid;
     border-width: 2px;
     color: #aaa;
@@ -545,6 +582,18 @@ h2 {
 }
 
 #sticky_button img:hover {
+    opacity: .75;
+}
+
+#sticky_button_CoS img:hover {
+    opacity: .75;
+}
+
+#sticky_button_Dead_Fleet img:hover {
+    opacity: .75;
+}
+
+#sticky_button_CoS_dread_fleet img:hover {
     opacity: .75;
 }
 
@@ -585,4 +634,15 @@ h2 {
     font-family: sans-serif;
     color: #fff;
     background-color: #1c141e;
+}
+
+#header_1_dread_fleet {
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #003b66;
 }
