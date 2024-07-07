@@ -517,6 +517,23 @@ h2 {
     background-color: #1c141e;
 }
 
+#flavor_text2_dread_fleet {
+    padding-left: 160px;
+    border: 4px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 690px;
+    background-color: #003b66;
+    font-size: 16pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 1px #fff;
+    background-color: #003b66;
+}
+
 /*.character_sheet img {
     float: left;
 }*/
@@ -589,7 +606,7 @@ h2 {
     opacity: .75;
 }
 
-#sticky_button_Dead_Fleet img:hover {
+#sticky_button_dread_fleet img:hover {
     opacity: .75;
 }
 
@@ -641,6 +658,18 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     font-size: 25pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #003b66;
+}
+
+#header_2_dread_fleet {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15pt; 
     font-weight: normal;
     font-family: sans-serif;
     color: #fff;
