@@ -553,6 +553,21 @@ h2 {
     line-height: 0;
 }
 
+#sticky_button_TDA_TLM {
+    position: fixed;
+    bottom: 0px;
+    right: 525px;
+    border: 1px;
+    margin-right: auto;
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+    color: #aaa;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    line-height: 0;
+}
+
 #sticky_button_CoS {
     position: fixed;
     bottom: 0px;
@@ -598,7 +613,26 @@ h2 {
     line-height: 0;
 }
 
+#sticky_button_TDA {
+    position: fixed;
+    bottom: 0px;
+    right: 525px;
+    border: 1px;
+    margin-right: auto;
+    border-color: rebeccapurple;
+    border-style: solid;
+    border-width: 2px;
+    color: #aaa;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    line-height: 0;
+}
+
 #sticky_button img:hover {
+    opacity: .75;
+}
+
+#sticky_button_TDA_TLM img:hover {
     opacity: .75;
 }
 
@@ -611,6 +645,10 @@ h2 {
 }
 
 #sticky_button_CoS_dread_fleet img:hover {
+    opacity: .75;
+}
+
+#sticky_button_TDA img:hover {
     opacity: .75;
 }
 
