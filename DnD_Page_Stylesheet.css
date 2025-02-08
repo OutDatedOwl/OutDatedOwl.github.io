@@ -120,6 +120,12 @@ h2 {
     background-color: #003b66;
 }
 
+#dnd_map_TDA {
+    display: inline-block;
+    margin: 30px 10px;
+    background-color: #1a074d;
+}
+
 .footer {
     /*padding-top: 0px;*/
     position: relative;
@@ -154,7 +160,7 @@ h2 {
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: #29038f
+    background-color: #1a074d
     /*--doomfire-pixel-size:1;
     background-image: paint(doomfire);*/
 }
@@ -202,7 +208,7 @@ h2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: #29038f; !important
+    background-color: #1a074d; !important
     background: url(/graphics/starburst.gif);
     border-style: solid;
     border-color: #000;
@@ -263,15 +269,15 @@ h2 {
 }
 
 .top_menu_alt1_TDA {
-    background-color: #5a1ef7;
+    background-color: #2a0194;
 }
 
 .top_menu_alt2_TDA {
-    background-color: #5019e3;
+    background-color: #230080;
 }
 
 .top_menu_alt3_TDA {
-    background-color: #4811d9;
+    background-color: #3200b5;
 }
 
 .glass {
@@ -532,7 +538,7 @@ h2 {
     color: #fff;
     text-align: center;
     text-shadow: 0px 0px 1px #fff;
-    background-color: #29038f;
+    background-color: #1a074d;
 }
 
 #flavor_text2 {
@@ -599,7 +605,7 @@ h2 {
     color: #fff;
     text-align: center;
     text-shadow: 0px 0px 1px #fff;
-    background-color: #29038f;
+    background-color: #1a074d;
 }
 
 /*.character_sheet img {
@@ -790,7 +796,7 @@ h2 {
     font-weight: normal;
     font-family: sans-serif;
     color: #fff;
-    background-color: #003b66;
+    background-color: #1a074d;
 }
 
 #header_2_TDA {
@@ -802,5 +808,5 @@ h2 {
     font-weight: normal;
     font-family: sans-serif;
     color: #fff;
-    background-color: #003b66;
+    background-color: #1a074d;
 }
