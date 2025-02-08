@@ -149,6 +149,16 @@ h2 {
     background-image: paint(doomfire);*/
 }
 
+.footer_TDA {
+    /*padding-top: 0px;*/
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #29038f
+    /*--doomfire-pixel-size:1;
+    background-image: paint(doomfire);*/
+}
+
 #the_lot_more {
     text-align: center;
     margin-left: auto;
@@ -180,6 +190,19 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     background-color: #003b66; !important
+    background: url(/graphics/starburst.gif);
+    border-style: solid;
+    border-color: #000;
+    border-width: 0px 0px 0px 1px;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+#the_lot_more_TDA {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #29038f; !important
     background: url(/graphics/starburst.gif);
     border-style: solid;
     border-color: #000;
@@ -237,6 +260,18 @@ h2 {
 
 .top_menu_alt3_dread_fleet {
     background-color: #033153;
+}
+
+.top_menu_alt1_TDA {
+    background-color: #5a1ef7;
+}
+
+.top_menu_alt2_TDA {
+    background-color: #5019e3;
+}
+
+.top_menu_alt3_TDA {
+    background-color: #4811d9;
 }
 
 .glass {
@@ -484,6 +519,22 @@ h2 {
     background-color: #003b66;
 }
 
+#flavor_text1_TDA {
+    padding-left: 160px;
+    border: 4px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 680px;
+    font-size: 16pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 1px #fff;
+    background-color: #29038f;
+}
+
 #flavor_text2 {
     padding-left: 160px;
     border: 4px;
@@ -532,6 +583,23 @@ h2 {
     text-align: center;
     text-shadow: 0px 0px 1px #fff;
     background-color: #003b66;
+}
+
+#flavor_text2_TDA {
+    padding-left: 160px;
+    border: 4px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 690px;
+    background-color: #003b66;
+    font-size: 16pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 1px #fff;
+    background-color: #29038f;
 }
 
 /*.character_sheet img {
@@ -703,6 +771,29 @@ h2 {
 }
 
 #header_2_dread_fleet {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #003b66;
+}
+
+#header_1_TDA {
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25pt; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #003b66;
+}
+
+#header_2_TDA {
     padding-top: 20px;
     padding-bottom: 30px;
     margin-right: auto;
